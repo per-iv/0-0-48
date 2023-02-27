@@ -1,21 +1,22 @@
-import React from 'react';
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
-</style>
+import { Link } from 'react-router-dom';
 
-function Header(){
-    return(
-        <header>
-            <div>
-                <img src= "https://thumbs2.imgbox.com/3f/d7/wVhdEa3x_t.png"  alt="Logo"/>
-            </div>
-            <nav>
-                <ul>
-                <button onClick={"Header"}>Datos</button>
-                </ul>
-            </nav>
-        </header>
-    );
+function Header() {
+  return (
+    <header>
+      <div>
+        <img src="" alt="Logo" />
+      </div>
+      <nav>
+        <ul className="nav-datos">
+          <li>
+            <Link className="nav-link" to="/datos">
+              DATOS
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

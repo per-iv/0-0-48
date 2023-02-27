@@ -1,5 +1,3 @@
-import React from "react";
-
 function ImagenC() {
   return (
     <div className="image-container">

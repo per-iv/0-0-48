@@ -30,6 +30,14 @@ nav ul {
 
 }
 
+.nav-inicio{
+  position: absolute;
+  transform: translate(-120px, -20px);
+  cursor: pointer;
+
+}
+
+
 .nav-link{
   color: #c9c1c1bd;
 }
@@ -44,21 +52,29 @@ nav ul {
 }
 
 .historial-container {
-  background-color: #c9c1c1bd;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 7px;
-  box-shadow: 0 0 5px #ccc;
+  background-color: #2b2727;
+  padding: 15px;
+  border: 2px solid #2b2727;
+  font-family: 'Roboto Slab', serif;
+  color: #b79357;
+  text-align: center;
+  border-radius: 7px #2b2727;
+  box-shadow: 0 0 4px ;
   width: 200px;
   height: 18px;
-  transform: translate(885px, -170px);
-  font-family: 'Roboto Slab', serif;
-  text-align: center;
-
-  
-
+  transform: translate(1205px, -300px);
   
 }
+
+.Timer {
+  color: #b79357;
+  text-align: center;
+  width: 200px;
+  height: 18px;
+  transform: translate(1245px, -330px);
+  
+}
+
 
 /* IMAGENC */
 .image-container {
@@ -70,11 +86,17 @@ nav ul {
 
 .my-image {
   position: absolute;
-  transform: translate(-70px, 80px);
-  width: 650px;
-  height: 400px;
+  transform: translate(1000px, 20px);
+  width: 200px;
+  height: 300px;
 }
 
+.my-logo {
+  position: absolute;
+  transform: translate(0px, -49px);
+  width: 400px;
+  height: 99px;
+}
 /* FOOTER */
 
 #footer {

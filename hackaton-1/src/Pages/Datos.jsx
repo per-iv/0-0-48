@@ -1,7 +1,9 @@
+import Header from "../Componentes/Header";
 function Datos() {
     return (
       <div className="datos-container">
-        <h1>Datos importantes</h1>
+        <Header pagina="Inicio" />
+        <h1>DATOS</h1>
         <p>Here is some important data</p>
       </div>
     );

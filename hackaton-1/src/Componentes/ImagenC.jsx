@@ -1,7 +1,8 @@
+import dwayne from '../images/dwayne.jpg';
 function ImagenC() {
   return (
     <div className="image-container">
-      <img className="my-image" src="https://thumbs2.imgbox.com/46/da/bGNmGfD7_t.jpg"  alt="Mi imagen" />
+      <img className="my-image" src={dwayne} alt="Mi imagen" />
     </div>
   );
 }
